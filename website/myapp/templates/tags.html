@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {%if error%}
+    <p style="color:red">会不会写</p>
+    {%else%}
+    <p>你真不会写</p>
+    {%endif%}
+    {%for i in list%}
+    <p>{{i}}</p>
+    {%endfor%}
+  </body>
+</html>
